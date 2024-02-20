@@ -1,4 +1,11 @@
-*   52e512c (HEAD -> master) Merge branch 'anotherEvent'
+*   23e0fda (HEAD -> master) Merged event handling part 2
+|\  
+| * 1444b46 (scoreCalculator) Changed scoreVals array for a second time
+* | 2f9693f Changed feedback message for 60 score
+* | 8ac702b Changed scoreVals array
+|/  
+* 1393669 Added average score method
+*   52e512c Merge branch 'anotherEvent'
 |\  
 | * 8d54f0a (anotherEvent) Added feedback header
 * | b48c11c Merged event handling

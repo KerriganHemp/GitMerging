@@ -34,11 +34,7 @@ public class TheMotivator {
 	}
 	
 	public void averageScore() {
-<<<<<<< HEAD
 		int[] scoreVals = new int[] {80, 85, 76, 92, 50, 67, 88};
-=======
-		int[] scoreVals = new int[] {80, 85, 76, 92, 67, 99};
->>>>>>> scoreCalculator
 		int averageScore = 0;
 		for (int score : scoreVals) {
 			averageScore = averageScore + score;
