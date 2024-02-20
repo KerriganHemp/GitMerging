@@ -1,0 +1,16 @@
+*   52e512c (HEAD -> master) Merge branch 'anotherEvent'
+|\  
+| * 8d54f0a (anotherEvent) Added feedback header
+* | b48c11c Merged event handling
+|\| 
+| * f653dc6 Add multiple scores
+* | 8fe83b8 Different perfect score message
+|/  
+*   e5ba2d4 (origin/master) New message for a perfect score
+|\  
+| * 5fce92c (addEvent) Added header
+| * 4406ee2 Added pass fail method
+* | 6911989 New message for a perfect score
+|/  
+* bd8d991 Refactored feedback to scoreFeedback
+* 274d5a4 Initial Commit
