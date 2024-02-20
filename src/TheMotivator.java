@@ -1,6 +1,6 @@
 
 public class TheMotivator {
-	public void feedback(int score) {
+	public void scoreFeedback(int score) {
 		if (score == 100)
 			System.out.println("You're awesome");
 		else if (score > 90)
@@ -12,6 +12,6 @@ public class TheMotivator {
 	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
-		tm.feedback(60);
+		tm.scoreFeedback(60);
 	}
 }
