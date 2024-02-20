@@ -10,8 +10,20 @@ public class TheMotivator {
 		else
 			System.out.println("Well, what can I say?");
 	}
+	
+	public void passFail(int score) {
+		System.out.println("Did you pass or fail?");
+		if (score >= 60) {
+			System.out.println("You passed!");
+		} else {
+			System.out.println("You failed :(");
+		}
+	}
+	
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
 		tm.scoreFeedback(100);
+		tm.scoreFeedback(60);
+		tm.passFail(60);
 	}
 }
