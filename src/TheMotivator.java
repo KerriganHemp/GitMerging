@@ -12,6 +12,7 @@ public class TheMotivator {
 	}
 	
 	public void passFail(int score) {
+		System.out.println("Did you pass or fail?");
 		if (score >= 60) {
 			System.out.println("You passed!");
 		} else {
