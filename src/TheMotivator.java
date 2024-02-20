@@ -2,7 +2,7 @@
 public class TheMotivator {
 	public void scoreFeedback(int score) {
 		if (score == 100)
-			System.out.println("You're super awesome!");
+			System.out.println("You're super duper awesome!");
 		else if (score > 90)
 			System.out.println("That's great");
 		else if (score > 60)
