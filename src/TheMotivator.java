@@ -19,7 +19,7 @@ public class TheMotivator {
 		else if (score > 90)
 			System.out.println("That's great");
 		else if (score > 60)
-			System.out.println("That's good ");
+			System.out.println("That's kind of good ");
 		else
 			System.out.println("Well, what can I say?");
 	}
