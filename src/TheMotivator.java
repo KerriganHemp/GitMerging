@@ -33,11 +33,23 @@ public class TheMotivator {
 		}
 	}
 	
+	public void averageScore() {
+		int[] scoreVals = new int[] {80, 85, 76, 92};
+		int averageScore = 0;
+		for (int score : scoreVals) {
+			averageScore = averageScore + score;
+		}
+		averageScore = averageScore / scoreVals.length;
+		System.out.println(averageScore);
+	}
+	
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
 		tm.addScore();
 		tm.scoreFeedback(100);
 		tm.scoreFeedback(60);
 		tm.passFail(60);
+		System.out.println("Average score:");
+		tm.averageScore();
 	}
 }
